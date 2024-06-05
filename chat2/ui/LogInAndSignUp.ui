@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form_LogInAndSignUp</class>
+ <widget class="QWidget" name="Form_LogInAndSignUp">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>497</width>
+    <height>355</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>登录与注册</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">* { 
+	font-family:微软雅黑;
+    font-size:30px;
+	color: #1d649c ;
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <widget class="QTabWidget" name="tabWidget_LogInAndSignUp">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab_LogIn">
+      <attribute name="title">
+       <string>登录</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>7</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <layout class="QFormLayout" name="formLayout_LogIn">
+         <property name="formAlignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_LogInID">
+           <property name="text">
+            <string>账号</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="lineEdit_LogInID"/>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_LogInPW">
+           <property name="text">
+            <string>密码</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEdit_LogInPW"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_LogIn">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="text">
+          <string>登录</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_SignUp">
+      <attribute name="title">
+       <string>注册</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QFormLayout" name="formLayout_SignUp">
+         <property name="formAlignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_SignUpID">
+           <property name="text">
+            <string>账号</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_SignUpPW">
+           <property name="text">
+            <string>密码</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_SignUpPW2">
+           <property name="text">
+            <string>确认密码</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_SignUpUser">
+           <property name="text">
+            <string>用户名</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="lineEdit_SignUpID"/>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="lineEdit_SignUpUser"/>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLineEdit" name="lineEdit_SignUpPW"/>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLineEdit" name="lineEdit_SignUpPW2"/>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_SignUp">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string>注册</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

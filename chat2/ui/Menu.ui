@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>611</width>
+    <height>432</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>菜单</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{  
+    font-family:微软雅黑;
+    font-size:30px;
+    color: #1d649c;
+}
+QPushButton{
+	border:1px solid #1d649c;
+}
+QPushButton:hover{
+	color: rgb(85, 255, 255);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_welcome">
+      <property name="text">
+       <string>欢迎使用多功能聊天系统</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButton_ChatNetwork">
+        <property name="text">
+         <string>网络聊天</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_Settings">
+        <property name="text">
+         <string>设置参数</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButton_Query">
+        <property name="text">
+         <string>每日资讯</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_AiFriends">
+        <property name="text">
+         <string>虚拟伙伴</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_author">
+      <property name="text">
+       <string>作者--刘培富</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>611</width>
+     <height>46</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

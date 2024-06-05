@@ -1,0 +1,1987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>830</width>
+    <height>492</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>虚拟伙伴</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{  
+    font-family:微软雅黑;
+    font-size:20px;
+	color: rgb(255, 85, 255);
+
+}
+QPushButton{
+	border:none
+}
+QPushButton:hover{
+	color: rgb(85, 255, 255);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,0,8">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_6" stretch="1,7">
+      <item>
+       <widget class="QPushButton" name="pushButton_Exit">
+        <property name="styleSheet">
+         <string notr="true">*{
+    border:1px solid #1d649c;
+}</string>
+        </property>
+        <property name="text">
+         <string>退出</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QScrollArea" name="scrollArea">
+        <property name="verticalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOn</enum>
+        </property>
+        <property name="horizontalScrollBarPolicy">
+         <enum>Qt::ScrollBarAlwaysOn</enum>
+        </property>
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>162</width>
+           <height>592</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_11">
+            <item>
+             <widget class="QLabel" name="label_paimeng">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>../img/ico/派蒙头像.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_paimeng">
+              <property name="text">
+               <string>派蒙</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_11">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_12">
+            <item>
+             <widget class="QLabel" name="label_naxida">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>../img/ico/纳西妲头像.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_naxida">
+              <property name="text">
+               <string>纳西妲</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_12">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_13">
+            <item>
+             <widget class="QLabel" name="label_keli">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>../img/ico/可莉头像.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_keli">
+              <property name="text">
+               <string>可莉</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_13">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_14">
+            <item>
+             <widget class="QLabel" name="label_keqing">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>../img/ico/刻晴头像.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_keqing">
+              <property name="text">
+               <string>刻晴</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_14">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_15">
+            <item>
+             <widget class="QLabel" name="label_bachongshengzi">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>../img/ico/八重神子.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_bachongshengzi">
+              <property name="text">
+               <string>八重神子</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_15">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_16">
+            <item>
+             <widget class="QLabel" name="label_leidianjiangjun">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>../img/ico/雷电将军头像.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_leidianjiangjun">
+              <property name="text">
+               <string>雷电将军</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_16">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_17">
+            <item>
+             <widget class="QLabel" name="label_babatuosi">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>../img/ico/巴巴托斯.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_babatuosi">
+              <property name="text">
+               <string>巴巴托斯</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_17">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_18">
+            <item>
+             <widget class="QLabel" name="label_shenlilinghua">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>../img/ico/神里绫华.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_shenlilinghua">
+              <property name="text">
+               <string>神里绫华</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_18">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_19">
+            <item>
+             <widget class="QLabel" name="label_xiaogong">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>../img/ico/宵宫头像.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_xiaogong">
+              <property name="text">
+               <string>宵宫</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_19">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_20">
+            <item>
+             <widget class="QLabel" name="label_zhongli">
+              <property name="maximumSize">
+               <size>
+                <width>50</width>
+                <height>50</height>
+               </size>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="pixmap">
+               <pixmap>../img/ico/钟离头像.png</pixmap>
+              </property>
+              <property name="scaledContents">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_zhongli">
+              <property name="text">
+               <string>钟离</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_20">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_3" stretch="7,0,1">
+      <item>
+       <widget class="QGroupBox" name="groupBox">
+        <property name="title">
+         <string>虚拟伙伴</string>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_5">
+         <item>
+          <widget class="QStackedWidget" name="stackedWidget">
+           <property name="styleSheet">
+            <string notr="true">#page_paimeng{border-image: url(:/bg/派蒙背景.png);}
+#page_naxida{border-image: url(:/bg/纳西妲背景.png);}
+#page_keli{border-image: url(:/bg/可莉背景.png);}
+#page_keqing{border-image: url(:/bg/刻晴背景.png);}
+#page_bachongshenzi{border-image: url(:/bg/八重神子背景.png);}
+#page_leidianjiangjun{border-image: url(:/bg/雷电将军背景.png);}
+#page_babatuosi{border-image: url(:/bg/温迪背景.jpg);}
+#page_shenlilinghua{border-image: url(:/bg/神里绫华.png);}
+#page_xiaogong{border-image: url(:/bg/宵宫背景.png);}
+#page_zhongli{border-image: url(:/bg/钟离背景.png);}</string>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="page_paimeng">
+            <property name="contextMenuPolicy">
+             <enum>Qt::CustomContextMenu</enum>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_4">
+             <item>
+              <widget class="QScrollArea" name="scrollArea_paimeng">
+               <property name="styleSheet">
+                <string notr="true">QScrollArea{
+background-color:transparent;
+}</string>
+               </property>
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+               </property>
+               <widget class="QWidget" name="scrollAreaWidgetContents_paimeng">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>596</width>
+                  <height>278</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#scrollAreaWidgetContents_paimeng
+{
+        background: transparent; 
+}</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>11</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="widget_AiFriedns_paimeng" native="true">
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_21">
+                    <property name="spacing">
+                     <number>7</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>11</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>11</number>
+                    </property>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_15" stretch="3,7">
+                      <item>
+                       <widget class="QLabel" name="label_Avatar_paimeng">
+                        <property name="maximumSize">
+                         <size>
+                          <width>50</width>
+                          <height>50</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="pixmap">
+                         <pixmap>../img/ico/派蒙头像.png</pixmap>
+                        </property>
+                        <property name="scaledContents">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="verticalSpacer_3">
+                        <property name="orientation">
+                         <enum>Qt::Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                         <enum>QSizePolicy::Preferred</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>20</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_16" stretch="1,9">
+                      <item>
+                       <widget class="QLabel" name="label_Time_paimeng">
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QTextBrowser" name="textBrowser_OutPut_paimeng">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(225, 225, 225);</string>
+                        </property>
+                        <property name="html">
+                         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'微软雅黑'; font-size:20px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_naxida">
+            <layout class="QVBoxLayout" name="verticalLayout_17">
+             <property name="leftMargin">
+              <number>9</number>
+             </property>
+             <property name="topMargin">
+              <number>9</number>
+             </property>
+             <property name="rightMargin">
+              <number>9</number>
+             </property>
+             <item>
+              <widget class="QScrollArea" name="scrollArea_naxida">
+               <property name="styleSheet">
+                <string notr="true">QScrollArea{
+background-color:transparent;
+}</string>
+               </property>
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+               </property>
+               <widget class="QWidget" name="scrollAreaWidgetContents_naxida">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>596</width>
+                  <height>278</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#scrollAreaWidgetContents_naxida
+{
+        background: transparent; 
+}</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_7">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>11</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="widget_AiFriedns_naxida" native="true">
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_22">
+                    <property name="spacing">
+                     <number>7</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>11</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>11</number>
+                    </property>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_27" stretch="3,7">
+                      <item>
+                       <widget class="QLabel" name="label_Avatar_naxida">
+                        <property name="maximumSize">
+                         <size>
+                          <width>50</width>
+                          <height>50</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="pixmap">
+                         <pixmap>../img/ico/纳西妲头像.png</pixmap>
+                        </property>
+                        <property name="scaledContents">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="verticalSpacer_4">
+                        <property name="orientation">
+                         <enum>Qt::Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                         <enum>QSizePolicy::Preferred</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>20</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_28" stretch="1,9">
+                      <item>
+                       <widget class="QLabel" name="label_Time_naxida">
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QTextBrowser" name="textBrowser_OutPut_naxida">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(225, 225, 225);</string>
+                        </property>
+                        <property name="html">
+                         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'微软雅黑'; font-size:20px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_keli">
+            <layout class="QVBoxLayout" name="verticalLayout_18">
+             <item>
+              <widget class="QScrollArea" name="scrollArea_keli">
+               <property name="styleSheet">
+                <string notr="true">QScrollArea{
+background-color:transparent;
+}</string>
+               </property>
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+               </property>
+               <widget class="QWidget" name="scrollAreaWidgetContents_keli">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>596</width>
+                  <height>278</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#scrollAreaWidgetContents_keli
+{
+        background: transparent; 
+}</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_8">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>9</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="widget_AiFriedns_keli" native="true">
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_24">
+                    <property name="spacing">
+                     <number>7</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>11</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>11</number>
+                    </property>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_29" stretch="3,7">
+                      <item>
+                       <widget class="QLabel" name="label_Avatar_keli">
+                        <property name="maximumSize">
+                         <size>
+                          <width>50</width>
+                          <height>50</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="pixmap">
+                         <pixmap>../img/ico/可莉头像.png</pixmap>
+                        </property>
+                        <property name="scaledContents">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="verticalSpacer_5">
+                        <property name="orientation">
+                         <enum>Qt::Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                         <enum>QSizePolicy::Preferred</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>20</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_30" stretch="0,9">
+                      <item>
+                       <widget class="QLabel" name="label_Time_keli">
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QTextBrowser" name="textBrowser_OutPut_keli">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(225, 225, 225);</string>
+                        </property>
+                        <property name="html">
+                         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'微软雅黑'; font-size:20px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_keqing">
+            <layout class="QVBoxLayout" name="verticalLayout_19">
+             <item>
+              <widget class="QScrollArea" name="scrollArea_keqing">
+               <property name="styleSheet">
+                <string notr="true">QScrollArea{
+background-color:transparent;
+}</string>
+               </property>
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+               </property>
+               <widget class="QWidget" name="scrollAreaWidgetContents_keqing">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>596</width>
+                  <height>278</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#scrollAreaWidgetContents_keqing
+{
+        background: transparent; 
+}</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_9">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="widget_AiFriedns_keqing" native="true">
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_25">
+                    <property name="spacing">
+                     <number>7</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>11</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>11</number>
+                    </property>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_31" stretch="3,7">
+                      <item>
+                       <widget class="QLabel" name="label_Avatar_keqing">
+                        <property name="maximumSize">
+                         <size>
+                          <width>50</width>
+                          <height>50</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="pixmap">
+                         <pixmap>../img/ico/刻晴头像.png</pixmap>
+                        </property>
+                        <property name="scaledContents">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="verticalSpacer_6">
+                        <property name="orientation">
+                         <enum>Qt::Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                         <enum>QSizePolicy::Preferred</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>20</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_32" stretch="0,9">
+                      <item>
+                       <widget class="QLabel" name="label_Time_keqing">
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QTextBrowser" name="textBrowser_OutPut_keqing">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(225, 225, 225);</string>
+                        </property>
+                        <property name="html">
+                         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'微软雅黑'; font-size:20px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_bachongshenzi">
+            <layout class="QVBoxLayout" name="verticalLayout_20">
+             <item>
+              <widget class="QScrollArea" name="scrollArea_bachongshenzi">
+               <property name="styleSheet">
+                <string notr="true">QScrollArea{
+background-color:transparent;
+}</string>
+               </property>
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+               </property>
+               <widget class="QWidget" name="scrollAreaWidgetContents_bachongshenzi">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>596</width>
+                  <height>278</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#scrollAreaWidgetContents_bachongshenzi
+{
+        background: transparent; 
+}</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_10">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="widget_AiFriedns_bachongshenzi" native="true">
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_26">
+                    <property name="spacing">
+                     <number>7</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>11</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>11</number>
+                    </property>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_33" stretch="3,7">
+                      <item>
+                       <widget class="QLabel" name="label_Avatar_bachongshenzi">
+                        <property name="maximumSize">
+                         <size>
+                          <width>50</width>
+                          <height>50</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="pixmap">
+                         <pixmap>../img/ico/八重神子.png</pixmap>
+                        </property>
+                        <property name="scaledContents">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="verticalSpacer_7">
+                        <property name="orientation">
+                         <enum>Qt::Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                         <enum>QSizePolicy::Preferred</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>20</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_34" stretch="0,9">
+                      <item>
+                       <widget class="QLabel" name="label_Time_bachongshenzi">
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QTextBrowser" name="textBrowser_OutPut_bachongshenzi">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(225, 225, 225);</string>
+                        </property>
+                        <property name="html">
+                         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'微软雅黑'; font-size:20px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_leidianjiangjun">
+            <layout class="QVBoxLayout" name="verticalLayout_22">
+             <item>
+              <widget class="QScrollArea" name="scrollArea_leidianjiangjun">
+               <property name="styleSheet">
+                <string notr="true">QScrollArea{
+background-color:transparent;
+}</string>
+               </property>
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+               </property>
+               <widget class="QWidget" name="scrollAreaWidgetContents_leidianjiangjun">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>596</width>
+                  <height>278</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#scrollAreaWidgetContents_leidianjiangjun
+{
+        background: transparent; 
+}</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_11">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="widget_AiFriedns_leidianjiangjun" native="true">
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_27">
+                    <property name="spacing">
+                     <number>7</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>11</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>11</number>
+                    </property>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_35" stretch="3,7">
+                      <item>
+                       <widget class="QLabel" name="label_Avatar_leidianjiangjun">
+                        <property name="maximumSize">
+                         <size>
+                          <width>50</width>
+                          <height>50</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="pixmap">
+                         <pixmap>../img/ico/雷电将军头像.png</pixmap>
+                        </property>
+                        <property name="scaledContents">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="verticalSpacer_8">
+                        <property name="orientation">
+                         <enum>Qt::Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                         <enum>QSizePolicy::Preferred</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>20</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_36" stretch="0,9">
+                      <item>
+                       <widget class="QLabel" name="label_Time_leidianjiangjun">
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QTextBrowser" name="textBrowser_OutPut_leidianjiangjun">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(225, 225, 225);</string>
+                        </property>
+                        <property name="html">
+                         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'微软雅黑'; font-size:20px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_babatuosi">
+            <layout class="QVBoxLayout" name="verticalLayout_23">
+             <item>
+              <widget class="QScrollArea" name="scrollArea_babatuosi">
+               <property name="styleSheet">
+                <string notr="true">QScrollArea{
+background-color:transparent;
+}</string>
+               </property>
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+               </property>
+               <widget class="QWidget" name="scrollAreaWidgetContents_babatuosi">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>596</width>
+                  <height>278</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#scrollAreaWidgetContents_babatuosi
+{
+        background: transparent; 
+}</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_12">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="widget_AiFriedns_babatuosi" native="true">
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_28">
+                    <property name="spacing">
+                     <number>7</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>11</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>11</number>
+                    </property>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_37" stretch="3,7">
+                      <item>
+                       <widget class="QLabel" name="label_Avatar_babatuosi">
+                        <property name="maximumSize">
+                         <size>
+                          <width>50</width>
+                          <height>50</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="pixmap">
+                         <pixmap>../img/ico/巴巴托斯.png</pixmap>
+                        </property>
+                        <property name="scaledContents">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="verticalSpacer_9">
+                        <property name="orientation">
+                         <enum>Qt::Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                         <enum>QSizePolicy::Preferred</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>20</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_38" stretch="0,9">
+                      <item>
+                       <widget class="QLabel" name="label_Time_babatuosi">
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QTextBrowser" name="textBrowser_OutPut_babtuosi">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(225, 225, 225);</string>
+                        </property>
+                        <property name="html">
+                         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'微软雅黑'; font-size:20px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_shenlilinghua">
+            <layout class="QVBoxLayout" name="verticalLayout_24">
+             <item>
+              <widget class="QScrollArea" name="scrollArea_shenlilinghua">
+               <property name="styleSheet">
+                <string notr="true">QScrollArea{
+background-color:transparent;
+}</string>
+               </property>
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+               </property>
+               <widget class="QWidget" name="scrollAreaWidgetContents_shenlilinghua">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>596</width>
+                  <height>278</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#scrollAreaWidgetContents_shenlilinghua
+{
+        background: transparent; 
+}</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_13">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="widget_AiFriedns_shenlilinghua" native="true">
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_29">
+                    <property name="spacing">
+                     <number>7</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>11</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>11</number>
+                    </property>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_39" stretch="3,7">
+                      <item>
+                       <widget class="QLabel" name="label_Avatar_shenlilinghua">
+                        <property name="maximumSize">
+                         <size>
+                          <width>50</width>
+                          <height>50</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="pixmap">
+                         <pixmap>../img/ico/神里绫华.png</pixmap>
+                        </property>
+                        <property name="scaledContents">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="verticalSpacer_10">
+                        <property name="orientation">
+                         <enum>Qt::Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                         <enum>QSizePolicy::Preferred</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>20</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_40" stretch="0,9">
+                      <item>
+                       <widget class="QLabel" name="label_Time_shenlilinghua">
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QTextBrowser" name="textBrowser_OutPut_shenlilinghua">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(225, 225, 225);</string>
+                        </property>
+                        <property name="html">
+                         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'微软雅黑'; font-size:20px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_xiaogong">
+            <layout class="QVBoxLayout" name="verticalLayout_25">
+             <item>
+              <widget class="QScrollArea" name="scrollArea_xiaogong">
+               <property name="styleSheet">
+                <string notr="true">QScrollArea{
+background-color:transparent;
+}</string>
+               </property>
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+               </property>
+               <widget class="QWidget" name="scrollAreaWidgetContents_xiaogong">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>596</width>
+                  <height>278</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#scrollAreaWidgetContents_xiaogong
+{
+        background: transparent; 
+}</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_14">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="widget_AiFriedns_xiaogong" native="true">
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_30">
+                    <property name="spacing">
+                     <number>7</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>11</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>11</number>
+                    </property>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_41" stretch="3,7">
+                      <item>
+                       <widget class="QLabel" name="label_Avatar_xiaogong">
+                        <property name="maximumSize">
+                         <size>
+                          <width>50</width>
+                          <height>50</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="pixmap">
+                         <pixmap>../img/ico/宵宫头像.png</pixmap>
+                        </property>
+                        <property name="scaledContents">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="verticalSpacer_11">
+                        <property name="orientation">
+                         <enum>Qt::Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                         <enum>QSizePolicy::Preferred</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>20</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_42" stretch="0,9">
+                      <item>
+                       <widget class="QLabel" name="label_Time_xiaogong">
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QTextBrowser" name="textBrowser_OutPut_xiaogong">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(225, 225, 225);</string>
+                        </property>
+                        <property name="html">
+                         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'微软雅黑'; font-size:20px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_zhongli">
+            <layout class="QVBoxLayout" name="verticalLayout_26">
+             <item>
+              <widget class="QScrollArea" name="scrollArea_zhongli">
+               <property name="styleSheet">
+                <string notr="true">QScrollArea{
+background-color:transparent;
+}</string>
+               </property>
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+               </property>
+               <widget class="QWidget" name="scrollAreaWidgetContents_zhongli">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>596</width>
+                  <height>278</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">#scrollAreaWidgetContents_zhongli
+{
+        background: transparent; 
+}</string>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_44">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="widget_AiFriedns_zhongli" native="true">
+                   <property name="minimumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>300</width>
+                     <height>150</height>
+                    </size>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_31">
+                    <property name="spacing">
+                     <number>7</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>11</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>11</number>
+                    </property>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_21" stretch="3,7">
+                      <item>
+                       <widget class="QLabel" name="label_Avatar_zhongli">
+                        <property name="maximumSize">
+                         <size>
+                          <width>50</width>
+                          <height>50</height>
+                         </size>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                        <property name="pixmap">
+                         <pixmap>../img/ico/钟离头像.png</pixmap>
+                        </property>
+                        <property name="scaledContents">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <spacer name="verticalSpacer_12">
+                        <property name="orientation">
+                         <enum>Qt::Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                         <enum>QSizePolicy::Preferred</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                         <size>
+                          <width>20</width>
+                          <height>20</height>
+                         </size>
+                        </property>
+                       </spacer>
+                      </item>
+                     </layout>
+                    </item>
+                    <item>
+                     <layout class="QVBoxLayout" name="verticalLayout_43" stretch="0,9">
+                      <item>
+                       <widget class="QLabel" name="label_Time_zhongli">
+                        <property name="styleSheet">
+                         <string notr="true"/>
+                        </property>
+                        <property name="text">
+                         <string/>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QTextBrowser" name="textBrowser_OutPut_zhongli">
+                        <property name="styleSheet">
+                         <string notr="true">background-color: rgb(225, 225, 225);</string>
+                        </property>
+                        <property name="html">
+                         <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'微软雅黑'; font-size:20px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item>
+       <widget class="Line" name="line_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_23" stretch="7,1">
+        <item>
+         <widget class="QLineEdit" name="lineEdit_msg"/>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton_Send">
+          <property name="styleSheet">
+           <string notr="true">*{
+    border:1px solid #1d649c;
+}</string>
+          </property>
+          <property name="text">
+           <string>发送</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>830</width>
+     <height>33</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../img/bg/bg.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,11 @@
+pyuic5 LogInAndSignUp.ui > LogInAndSignUp.py
+pyuic5 Menu.ui > Menu.py
+pyuic5 settings.ui > settings.py
+pyuic5 Chat.ui > Chat.py
+pyuic5 crawler.ui > crawler.py
+pyuic5 AiFriends.ui > AiFriends.py
+
+
+pyrcc5 -o bg_rc.py bg.qrc
+
+import img.bg.bg_rc

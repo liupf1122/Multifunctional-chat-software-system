@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="bg">
+    <file>八重神子背景.png</file>
+    <file>可莉背景.png</file>
+    <file>刻晴背景.png</file>
+    <file>雷电将军背景.png</file>
+    <file>纳西妲背景.png</file>
+    <file>派蒙背景.png</file>
+    <file>神里绫华.png</file>
+    <file>温迪背景.jpg</file>
+    <file>宵宫背景.png</file>
+    <file>钟离背景.png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,111 @@
+方向
+self.widget.setLayoutDirection(dir)
+
+字体
+self.textBrowser_OutPut_paimeng.setHtml(_translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'微软雅黑\'; font-size:20px; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:20px;\">你好呀，我是派蒙</span></p></body></html>"))
+     
+   
+注释：
+起始
+self.widget = QtWidgets.QWidget(self.scrollAreaWidgetContents)
+self.widget_alone = QtWidgets.QWidget(self.scrollAreaWidgetContents_alone)
+
+self.widget_AiFriedns_paimeng = QtWidgets.QWidget(self.scrollAreaWidgetContents_paimeng)
+self.widget_AiFriedns_naxida = QtWidgets.QWidget(self.scrollAreaWidgetContents_naxida)
+self.widget_AiFriedns_keli = QtWidgets.QWidget(self.scrollAreaWidgetContents_keli)
+
+self.widget_AiFriedns_keqing = QtWidgets.QWidget(self.scrollAreaWidgetContents_keqing)
+self.widget_AiFriedns_bachongshenzi = QtWidgets.QWidget(self.scrollAreaWidgetContents_bachongshenzi)
+self.widget_AiFriedns_leidianjiangjun = QtWidgets.QWidget(self.scrollAreaWidgetContents_leidianjiangjun)
+self.widget_AiFriedns_babatuosi = QtWidgets.QWidget(self.scrollAreaWidgetContents_babatuosi)
+self.widget_AiFriedns_shenlilinghua = QtWidgets.QWidget(self.scrollAreaWidgetContents_shenlilinghua)
+self.widget_AiFriedns_xiaogong = QtWidgets.QWidget(self.scrollAreaWidgetContents_xiaogong)
+self.widget_AiFriedns_zhongli = QtWidgets.QWidget(self.scrollAreaWidgetContents_zhongli)
+
+
+结束
+self.scrollArea_Chat.setWidget(self.scrollAreaWidgetContents)
+self.scrollArea_Chat_alone.setWidget(self.scrollAreaWidgetContents_alone)
+
+self.scrollArea_paimeng.setWidget(self.scrollAreaWidgetContents_paimeng)
+self.scrollArea_naxida.setWidget(self.scrollAreaWidgetContents_naxida)
+self.scrollArea_keli.setWidget(self.scrollAreaWidgetContents_keli)
+
+self.scrollArea_keqing.setWidget(self.scrollAreaWidgetContents_keqing)
+self.scrollArea_bachongshenzi.setWidget(self.scrollAreaWidgetContents_bachongshenzi)
+self.scrollArea_leidianjiangjun.setWidget(self.scrollAreaWidgetContents_leidianjiangjun)
+self.scrollArea_babatuosi.setWidget(self.scrollAreaWidgetContents_babatuosi)
+self.scrollArea_shenlilinghua.setWidget(self.scrollAreaWidgetContents_shenlilinghua)
+self.scrollArea_xiaogong.setWidget(self.scrollAreaWidgetContents_xiaogong)
+self.scrollArea_zhongli.setWidget(self.scrollAreaWidgetContents_zhongli)
+
+
+名字：
+self.label_Time.setText(_translate("MainWindow", "刘培富 2024/5/5"))
+ self.label_Time_alone.setText(_translate("MainWindow", "刘培富 2024/5/5"))
+
+self.label_Time_paimeng.setText(_translate("MainWindow", "派蒙"))
+
+self.label_Time_paimeng.setText(_translate
+self.label_Time_paimeng.setText(_translate
+
+删除下面的
+
+listView_ChatList_3 替换为 listView_ChatList_alone
+pushButton_Refresh_2 替换为 pushButton_Refresh_alone
+
+..要替换为.
+
+
+样式表
+全局
+*{  
+    font-family:微软雅黑;
+    font-size:20px;
+    color: #1d649c;
+}
+QPushButton{
+	border:none
+}
+QPushButton:hover{
+	color: rgb(85, 255, 255);
+}
+
+单个按钮
+*{
+    border:1px solid #1d649c;
+}
+
+文本框透明
+QScrollArea{
+background-color:transparent;
+}
+
+
+
+每页背景
+#page_paimeng{border-image: url(:/bg/派蒙背景.png);}
+#page_naxida{border-image: url(:/bg/纳西妲背景.png);}
+#page_keli{border-image: url(:/bg/可莉背景.png);}
+#page_keqing{border-image: url(:/bg/刻晴背景.png);}
+#page_bachongshenzi{border-image: url(:/bg/八重神子背景.png);}
+#page_leidianjiangjun{border-image: url(:/bg/雷电将军背景.png);}
+#page_babatuosi{border-image: url(:/bg/温迪背景.png);}
+#page_shenlilinghua{border-image: url(:/bg/神里绫华.png);}
+#page_xiaogong{border-image: url(:/bg/宵宫背景.png);}
+#page_zhongli{border-image: url(:/bg/钟离背景.png);}
+
+page_paimeng
+page_naxida
+page_keli
+page_keqing
+page_bachongshenzi
+page_leidianjiangjun
+page_babatuosi
+page_shenlilinghua
+page_xiaogong
+page_zhongli

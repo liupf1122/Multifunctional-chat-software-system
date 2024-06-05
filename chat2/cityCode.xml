@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<China>
+  <province id="18" name="河南">
+    <city id="1801" name="郑州">
+      <county id="180101" name="郑州" weatherCode="101180101"/>
+      <county id="180102" name="巩义" weatherCode="101180102"/>
+      <county id="180103" name="荥阳" weatherCode="101180103"/>
+      <county id="180104" name="登封" weatherCode="101180104"/>
+      <county id="180105" name="新密" weatherCode="101180105"/>
+      <county id="180106" name="新郑" weatherCode="101180106"/>
+      <county id="180107" name="中牟" weatherCode="101180107"/>
+      <county id="180108" name="上街" weatherCode="101180108"/>
+    </city>
+    <city id="1802" name="安阳">
+      <county id="180201" name="安阳" weatherCode="101180201"/>
+      <county id="180202" name="汤阴" weatherCode="101180202"/>
+      <county id="180203" name="滑县" weatherCode="101180203"/>
+      <county id="180204" name="内黄" weatherCode="101180204"/>
+      <county id="180205" name="林州" weatherCode="101180205"/>
+    </city>
+    <city id="1803" name="新乡">
+      <county id="180301" name="新乡" weatherCode="101180301"/>
+      <county id="180302" name="获嘉" weatherCode="101180302"/>
+      <county id="180303" name="原阳" weatherCode="101180303"/>
+      <county id="180304" name="辉县" weatherCode="101180304"/>
+      <county id="180305" name="卫辉" weatherCode="101180305"/>
+      <county id="180306" name="延津" weatherCode="101180306"/>
+      <county id="180307" name="封丘" weatherCode="101180307"/>
+      <county id="180308" name="长垣" weatherCode="101180308"/>
+    </city>
+    <city id="1804" name="许昌">
+      <county id="180401" name="许昌" weatherCode="101180401"/>
+      <county id="180402" name="鄢陵" weatherCode="101180402"/>
+      <county id="180403" name="襄城" weatherCode="101180403"/>
+      <county id="180404" name="长葛" weatherCode="101180404"/>
+      <county id="180405" name="禹州" weatherCode="101180405"/>
+    </city>
+    <city id="1805" name="平顶山">
+      <county id="180501" name="平顶山" weatherCode="101180501"/>
+      <county id="180502" name="郏县" weatherCode="101180502"/>
+      <county id="180503" name="宝丰" weatherCode="101180503"/>
+      <county id="180504" name="汝州" weatherCode="101180504"/>
+      <county id="180505" name="叶县" weatherCode="101180505"/>
+      <county id="180506" name="舞钢" weatherCode="101180506"/>
+      <county id="180507" name="鲁山" weatherCode="101180507"/>
+      <county id="180508" name="石龙" weatherCode="101180508"/>
+    </city>
+    <city id="1806" name="信阳">
+      <county id="180601" name="信阳" weatherCode="101180601"/>
+      <county id="180602" name="息县" weatherCode="101180602"/>
+      <county id="180603" name="罗山" weatherCode="101180603"/>
+      <county id="180604" name="光山" weatherCode="101180604"/>
+      <county id="180605" name="新县" weatherCode="101180605"/>
+      <county id="180606" name="淮滨" weatherCode="101180606"/>
+      <county id="180607" name="潢川" weatherCode="101180607"/>
+      <county id="180608" name="固始" weatherCode="101180608"/>
+      <county id="180609" name="商城" weatherCode="101180609"/>
+    </city>
+    <city id="1807" name="南阳">
+      <county id="180701" name="南阳" weatherCode="101180701"/>
+      <county id="180702" name="南召" weatherCode="101180702"/>
+      <county id="180703" name="方城" weatherCode="101180703"/>
+      <county id="180704" name="社旗" weatherCode="101180704"/>
+      <county id="180705" name="西峡" weatherCode="101180705"/>
+      <county id="180706" name="内乡" weatherCode="101180706"/>
+      <county id="180707" name="镇平" weatherCode="101180707"/>
+      <county id="180708" name="淅川" weatherCode="101180708"/>
+      <county id="180709" name="新野" weatherCode="101180709"/>
+      <county id="180710" name="唐河" weatherCode="101180710"/>
+      <county id="180711" name="邓州" weatherCode="101180711"/>
+      <county id="180712" name="桐柏" weatherCode="101180712"/>
+    </city>
+    <city id="1808" name="开封">
+      <county id="180801" name="开封" weatherCode="101180801"/>
+      <county id="180802" name="杞县" weatherCode="101180802"/>
+      <county id="180803" name="尉氏" weatherCode="101180803"/>
+      <county id="180804" name="通许" weatherCode="101180804"/>
+      <county id="180805" name="兰考" weatherCode="101180805"/>
+    </city>
+    <city id="1809" name="洛阳">
+      <county id="180901" name="洛阳" weatherCode="101180901"/>
+      <county id="180902" name="新安" weatherCode="101180902"/>
+      <county id="180903" name="孟津" weatherCode="101180903"/>
+      <county id="180904" name="宜阳" weatherCode="101180904"/>
+      <county id="180905" name="洛宁" weatherCode="101180905"/>
+      <county id="180906" name="伊川" weatherCode="101180906"/>
+      <county id="180907" name="嵩县" weatherCode="101180907"/>
+      <county id="180908" name="偃师" weatherCode="101180908"/>
+      <county id="180909" name="栾川" weatherCode="101180909"/>
+      <county id="180910" name="汝阳" weatherCode="101180910"/>
+      <county id="180911" name="吉利" weatherCode="101180911"/>
+    </city>
+    <city id="1810" name="商丘">
+      <county id="181001" name="商丘" weatherCode="101181001"/>
+      <county id="181002" name="睢县" weatherCode="101181003"/>
+      <county id="181003" name="民权" weatherCode="101181004"/>
+      <county id="181004" name="虞城" weatherCode="101181005"/>
+      <county id="181005" name="柘城" weatherCode="101181006"/>
+      <county id="181006" name="宁陵" weatherCode="101181007"/>
+      <county id="181007" name="夏邑" weatherCode="101181008"/>
+      <county id="181008" name="永城" weatherCode="101181009"/>
+    </city>
+    <city id="1811" name="焦作">
+      <county id="181101" name="焦作" weatherCode="101181101"/>
+      <county id="181102" name="修武" weatherCode="101181102"/>
+      <county id="181103" name="武陟" weatherCode="101181103"/>
+      <county id="181104" name="沁阳" weatherCode="101181104"/>
+      <county id="181105" name="博爱" weatherCode="101181106"/>
+      <county id="181106" name="温县" weatherCode="101181107"/>
+      <county id="181107" name="孟州" weatherCode="101181108"/>
+    </city>
+    <city id="1812" name="鹤壁">
+      <county id="181201" name="鹤壁" weatherCode="101181201"/>
+      <county id="181202" name="浚县" weatherCode="101181202"/>
+      <county id="181203" name="淇县" weatherCode="101181203"/>
+    </city>
+    <city id="1813" name="濮阳">
+      <county id="181301" name="濮阳" weatherCode="101181301"/>
+      <county id="181302" name="台前" weatherCode="101181302"/>
+      <county id="181303" name="南乐" weatherCode="101181303"/>
+      <county id="181304" name="清丰" weatherCode="101181304"/>
+      <county id="181305" name="范县" weatherCode="101181305"/>
+    </city>
+    <city id="1814" name="周口">
+      <county id="181401" name="周口" weatherCode="101181401"/>
+      <county id="181402" name="扶沟" weatherCode="101181402"/>
+      <county id="181403" name="太康" weatherCode="101181403"/>
+      <county id="181404" name="淮阳" weatherCode="101181404"/>
+      <county id="181405" name="西华" weatherCode="101181405"/>
+      <county id="181406" name="商水" weatherCode="101181406"/>
+      <county id="181407" name="项城" weatherCode="101181407"/>
+      <county id="181408" name="郸城" weatherCode="101181408"/>
+      <county id="181409" name="鹿邑" weatherCode="101181409"/>
+      <county id="181410" name="沈丘" weatherCode="101181410"/>
+    </city>
+    <city id="1815" name="漯河">
+      <county id="181501" name="漯河" weatherCode="101181501"/>
+      <county id="181502" name="临颍" weatherCode="101181502"/>
+      <county id="181503" name="舞阳" weatherCode="101181503"/>
+    </city>
+    <city id="1816" name="驻马店">
+      <county id="181601" name="驻马店" weatherCode="101181601"/>
+      <county id="181602" name="西平" weatherCode="101181602"/>
+      <county id="181603" name="遂平" weatherCode="101181603"/>
+      <county id="181604" name="上蔡" weatherCode="101181604"/>
+      <county id="181605" name="汝南" weatherCode="101181605"/>
+      <county id="181606" name="泌阳" weatherCode="101181606"/>
+      <county id="181607" name="平舆" weatherCode="101181607"/>
+      <county id="181608" name="新蔡" weatherCode="101181608"/>
+      <county id="181609" name="确山" weatherCode="101181609"/>
+      <county id="181610" name="正阳" weatherCode="101181610"/>
+    </city>
+    <city id="1817" name="三门峡">
+      <county id="181701" name="三门峡" weatherCode="101181701"/>
+      <county id="181702" name="灵宝" weatherCode="101181702"/>
+      <county id="181703" name="渑池" weatherCode="101181703"/>
+      <county id="181704" name="卢氏" weatherCode="101181704"/>
+      <county id="181705" name="义马" weatherCode="101181705"/>
+      <county id="181706" name="陕县" weatherCode="101181706"/>
+    </city>
+    <city id="1818" name="济源">
+      <county id="181801" name="济源" weatherCode="101181801"/>
+    </city>
+  </province>
+</China>
