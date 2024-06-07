@@ -17,7 +17,7 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/liupf1122/Multifunctional-chat-software-system/blob/main/">
+  <a href="https://github.com/liupf1122/Multifunctional-chat-software-system/main/">
     <img src="images/%E5%88%BB%E6%99%B4%E8%83%8C%E6%99%AF.png" alt="Logo" width="320" height="160">
   </a>
 
