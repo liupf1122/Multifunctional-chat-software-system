@@ -123,7 +123,7 @@ filetree
 该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
 
 ### 作者
-- [liupf1122](https://github.com/liupf1122) 邮箱：19821733623@163.com
+- [liupf1122](https://github.com/liupf1122)
 
 ### 版权说明
 
