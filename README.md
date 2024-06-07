@@ -25,20 +25,19 @@
   <p align="center">
     快速开始项目！
     <br />
-    <a href="https://github.com/shaojintian/Best_README_template"><strong>探索本项目的文档 »</strong></a>
+    <a href="https://github.com/liupf1122/Multifunctional-chat-software-system/main/%E8%AE%BE%E8%AE%A1%E6%8A%A5%E5%91%8A.pdf"><strong>探索本项目的设计报告 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/shaojintian/Best_README_template">查看Demo</a>
+    <a href="https://github.com/liupf1122/Multifunctional-chat-software-system/main/%E8%AE%BE%E8%AE%A1%E6%8A%A5%E5%91%8A.pdf">查看Demo</a>
     ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">报告Bug</a>
+    <a href="https://github.com/liupf1122/Multifunctional-chat-software-system/issues">报告Bug</a>
     ·
-    <a href="https://github.com/shaojintian/Best_README_template/issues">提出新特性</a>
+    <a href="https://github.com/liupf1122/Multifunctional-chat-software-system/issues">提出新特性</a>
   </p>
 
 </p>
 
 
- 本篇README.md面向开发者
  
 ## 目录
 
@@ -57,7 +56,6 @@
 
 ### 上手指南
 
-请将所有链接中的“shaojintian/Best_README_template”改为“your_github_name/your_repository”
 
 
 
@@ -72,11 +70,10 @@
 2. Clone the repo
 
 ```sh
-git clone https://github.com/shaojintian/Best_README_template.git
+git clone https://github.com/liupf1122/Multifunctional-chat-software-system.git
 ```
 
 ### 文件目录说明
-eg:
 
 ```
 filetree 
@@ -104,7 +101,7 @@ filetree
 
 ### 开发的架构 
 
-请阅读[ARCHITECTURE.md](https://github.com/shaojintian/Best_README_template/blob/master/ARCHITECTURE.md) 查阅为该项目的架构。
+暂无
 
 ### 部署
 
@@ -120,7 +117,7 @@ filetree
 
 请阅读**CONTRIBUTING.md** 查阅为该项目做出贡献的开发者。
 
-#### 如何参与开源项目
+### 如何参与开源项目
 
 贡献使开源社区成为一个学习、激励和创造的绝佳场所。你所作的任何贡献都是**非常感谢**的。
 
@@ -137,17 +134,12 @@ filetree
 
 该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
 
-### 刘培富
-
-xxx@xxxx
-
-知乎:xxxx  &ensp; qq:xxxxxx    
-
- *您也可以在贡献者名单中参看所有参与该项目的开发者。*
+### 作者
+刘培富 19821733623@163.com
 
 ### 版权说明
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt)
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/liupf1122/Multifunctional-chat-software-system/main/LICENSE.txt)
 
 ### 鸣谢
 
@@ -160,16 +152,16 @@ xxx@xxxx
 - [xxxxxxxxxxxxxx](https://connoratherton.com/loaders)
 
 <!-- links -->
-[your-project-path]:shaojintian/Best_README_template
-[contributors-shield]: https://img.shields.io/github/contributors/shaojintian/Best_README_template.svg?style=flat-square
-[contributors-url]: https://github.com/shaojintian/Best_README_template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/shaojintian/Best_README_template.svg?style=flat-square
-[forks-url]: https://github.com/shaojintian/Best_README_template/network/members
-[stars-shield]: https://img.shields.io/github/stars/shaojintian/Best_README_template.svg?style=flat-square
-[stars-url]: https://github.com/shaojintian/Best_README_template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg
-[license-shield]: https://img.shields.io/github/license/shaojintian/Best_README_template.svg?style=flat-square
-[license-url]: https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt
+[your-project-path]:liupf1122/Multifunctional-chat-software-system
+[contributors-shield]: https://img.shields.io/github/contributors/liupf1122/Multifunctional-chat-software-system.svg?style=flat-square
+[contributors-url]: https://github.com/liupf1122/Multifunctional-chat-software-system/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/liupf1122/Multifunctional-chat-software-system.svg?style=flat-square
+[forks-url]: https://github.com/liupf1122/Multifunctional-chat-software-system/network/members
+[stars-shield]: https://img.shields.io/github/stars/liupf1122/Multifunctional-chat-software-system.svg?style=flat-square
+[stars-url]: https://github.com/liupf1122/Multifunctional-chat-software-system/stargazers
+[issues-shield]: https://img.shields.io/github/issues/liupf1122/Multifunctional-chat-software-system.svg?style=flat-square
+[issues-url]: https://img.shields.io/github/issues/liupf1122/Multifunctional-chat-software-system.svg
+[license-shield]: https://img.shields.io/github/license/liupf1122/Multifunctional-chat-software-system.svg?style=flat-square
+[license-url]: https://github.com/liupf1122/Multifunctional-chat-software-system/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/shaojintian
