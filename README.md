@@ -25,7 +25,7 @@
   <p align="center">
     快速开始项目！
     <br />
-    <a href="https://github.com/liupf1122/Multifunctional-chat-software-system/main/%E8%AE%BE%E8%AE%A1%E6%8A%A5%E5%91%8A.pdf"><strong>探索本项目的设计报告 »</strong></a>
+    <a href="https://github.com/liupf1122/Multifunctional-chat-software-system/blob/main/%E8%AE%BE%E8%AE%A1%E6%8A%A5%E5%91%8A.pdf"><strong>探索本项目的设计报告 »</strong></a>
     <br />
     <br />
     <a href="https://github.com/liupf1122/Multifunctional-chat-software-system/main/%E8%AE%BE%E8%AE%A1%E6%8A%A5%E5%91%8A.pdf">查看Demo</a>
@@ -162,6 +162,6 @@ filetree
 [issues-shield]: https://img.shields.io/github/issues/liupf1122/Multifunctional-chat-software-system.svg?style=flat-square
 [issues-url]: https://img.shields.io/github/issues/liupf1122/Multifunctional-chat-software-system.svg
 [license-shield]: https://img.shields.io/github/license/liupf1122/Multifunctional-chat-software-system.svg?style=flat-square
-[license-url]: https://github.com/liupf1122/Multifunctional-chat-software-system/blob/master/LICENSE.txt
+[license-url]: https://github.com/liupf1122/Multifunctional-chat-software-system/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/shaojintian
