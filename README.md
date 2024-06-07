@@ -139,7 +139,7 @@ filetree
 
 ### 版权说明
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/liupf1122/Multifunctional-chat-software-system/main/LICENSE)
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/liupf1122/Multifunctional-chat-software-system/blob/main/LICENSE)
 
 ### 鸣谢
 
