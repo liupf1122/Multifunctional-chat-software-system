@@ -1,2 +1,2 @@
 ## 贡献者
-[刘培富]("https://github.com/liupf1122")
+- [liupf1122](https://github.com/liupf1122)
