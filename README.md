@@ -18,12 +18,12 @@
 
 <p align="center">
   <a href="https://github.com/liupf1122/Multifunctional-chat-software-system/blob/main/">
-    <img src="images/%E5%88%BB%E6%99%B4%E8%83%8C%E6%99%AF.png" alt="Logo" width="160" height="80">
+    <img src="images/%E5%88%BB%E6%99%B4%E8%83%8C%E6%99%AF.png" alt="Logo" width="320" height="160">
   </a>
 
-  <h3 align="center">"完美的"README模板</h3>
+  <h3 align="center">多功能聊天软件系统</h3>
   <p align="center">
-    一个"完美的"README模板去快速开始你的项目！
+    快速开始项目！
     <br />
     <a href="https://github.com/shaojintian/Best_README_template"><strong>探索本项目的文档 »</strong></a>
     <br />
