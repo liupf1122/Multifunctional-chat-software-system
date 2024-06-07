@@ -60,8 +60,9 @@
 
 ##### 开发前的配置要求
 
-1. xxxxx x.x.x
-2. xxxxx x.x.x
+1. Python>=3.8
+2. 安装PyCharm
+3. 浏览器搜索AutoDL算例云，并注册账号
 
 ##### **安装步骤**
 
