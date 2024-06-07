@@ -59,12 +59,12 @@
 
 
 
-###### 开发前的配置要求
+##### 开发前的配置要求
 
 1. xxxxx x.x.x
 2. xxxxx x.x.x
 
-###### **安装步骤**
+##### **安装步骤**
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
@@ -117,7 +117,7 @@ filetree
 
 请阅读**CONTRIBUTING.md** 查阅为该项目做出贡献的开发者。
 
-#### 如何参与开源项目
+##### 如何参与开源项目
 
 贡献使开源社区成为一个学习、激励和创造的绝佳场所。你所作的任何贡献都是**非常感谢**的。
 
@@ -135,11 +135,11 @@ filetree
 该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
 
 ### 作者
-刘培富 19821733623@163.com
+刘培富 邮箱：19821733623@163.com
 
 ### 版权说明
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/liupf1122/Multifunctional-chat-software-system/main/LICENSE.txt)
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/liupf1122/Multifunctional-chat-software-system/main/LICENSE)
 
 ### 鸣谢
 
