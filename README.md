@@ -73,9 +73,9 @@
 git clone https://github.com/liupf1122/Multifunctional-chat-software-system.git
 ```
 
-4.克隆好项目后在chat2文件夹下打开终端，运行如下命令配置该项目环境
+4. 克隆好项目后在chat2文件夹下打开终端，运行如下命令配置该项目环境
 ```sh
-pip install request.txt
+pip install requirements.txt
 ```
 
 ### 文件目录说明
