@@ -83,41 +83,23 @@ pip install requirements.txt
 
 ```
 filetree 
-├── ARCHITECTURE.md
+├── CONTRIBUTING.md
 ├── LICENSE.txt
 ├── README.md
-├── /account/
-├── /bbs/
-├── /docs/
-│  ├── /rules/
-│  │  ├── backend.txt
-│  │  └── frontend.txt
-├── manage.py
-├── /oa/
-├── /static/
-├── /templates/
-├── useless.md
-└── /util/
-
+├── 设计报告.docx
+├── 设计报告.pdf
+├── /images/
+├── /chat2/ 项目主文件夹
+│  ├── /data/ 账号密码数据库
+│  ├── /figures/ 每日天气数据分析图
+│  ├── /img/ 项目用到的图片
+│  ├── /news/ 每日新闻文本
+│  ├── /weather/ 每日天气数据
+│  ├── /ui/ ui代码
+│  ├── server.py 服务端代码
+│  ├── main.py 客户端代码
 ```
 
-
-
-
-
-### 开发的架构 
-
-暂无
-
-### 部署
-
-暂无
-
-### 使用到的框架
-
-- [xxxxxxx](https://getbootstrap.com)
-- [xxxxxxx](https://jquery.com)
-- [xxxxxxx](https://laravel.com)
 
 ### 贡献者
 
@@ -150,12 +132,10 @@ filetree
 ### 鸣谢
 
 
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Img Shields](https://shields.io)
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Pages](https://pages.github.com)
-- [Animate.css](https://daneden.github.io/animate.css)
-- [xxxxxxxxxxxxxx](https://connoratherton.com/loaders)
+- [bilibili@花儿不哭大佬的开源项目](https://www.bilibili.com/video/BV12g4y1m7Uw/?spm_id_from=333.788.recommend_more_video.1&vd_source=529e44bf5ded1d64297050272307686e)
+- [bilibili@白菜工厂1145号员工的GPT-SoVITS教程](https://www.bilibili.com/video/BV1GJ4m1e7x2/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=529e44bf5ded1d64297050272307686e)
+- [bilibili@白菜工厂1145号员工的原神全角色GPT-SoVITS模型](https://www.bilibili.com/video/BV1zt421g73Q/?spm_id_from=333.788.top_right_bar_window_custom_collection.content.click&vd_source=529e44bf5ded1d64297050272307686e)
+
 
 <!-- links -->
 [your-project-path]:liupf1122/Multifunctional-chat-software-system
