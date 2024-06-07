@@ -17,8 +17,8 @@
 <br />
 
 <p align="center">
-  <a href="https://github.com/shaojintian/Best_README_template/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/liupf1122/Multifunctional-chat-software-system/blob/main/">
+    <img src="images/%E5%88%BB%E6%99%B4%E8%83%8C%E6%99%AF.png" alt="Logo" width="160" height="80">
   </a>
 
   <h3 align="center">"完美的"README模板</h3>
